@@ -88,5 +88,9 @@ class ContactServiceTest {
         List<Contact> contacts =contactService.getAllContact();
         assertThat(contacts.size()).isEqualTo(1L);
     }
+    @Test
+    public void test(){
+
+    }
 
 }
